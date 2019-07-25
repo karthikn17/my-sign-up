@@ -9,9 +9,9 @@ var Request = require("request");
 
 Request.post({
     "headers": { 
-	'Authorization': 'Basic ' + new Buffer.from('karthikn:Kar@sg17').toString('base64'),
+	'Authorization': 'Basic ' + new Buffer.from('316892:Kar@sg17').toString('base64'),
 	"content-type": "application/json"},
-    "url": "https://cognizant-82015.appiancloud.com/suite/webapi/signup/new",
+    "url": "https://appianpoc.cognizant.com/suite/webapi/sign_up/new",
     "body": JSON.stringify({
     "nationality": "Ireland",
     "countryofResidence": "Singapore",
