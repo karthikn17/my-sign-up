@@ -11,7 +11,7 @@ Request.post({
     "headers": { 
 	'Authorization': 'Basic ' + new Buffer.from('316892:Kar@sg17').toString('base64'),
 	"content-type": "application/json"},
-    "url": "https://appianpoc.cognizant.com/suite/webapi/sign_up/new",
+    "url": "https://cognizant-82015.appiancloud.com/suite/webapi/sign_up/new",
     "body": JSON.stringify({
     "nationality": "Ireland",
     "countryofResidence": "Singapore",
